@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Restaurante</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Menú Golden</h1>
+    <div id="menu">
+        <div class="comida" id="milanesas">
+            <img src="./images/milanesas.jpg" alt="Milanesas con Papas Fritas" class="imagen">
+            <h2>Milanesas con Papas Fritas</h2>
+            <p>Deliciosas milanesas con papas fritas</p>
+            <button onclick="seleccionarComida(1)">Seleccionar</button>
+            <button onclick="borrarComida(1)">Borrar</button>
+            <span id="cantidad-1">Cantidad: 0</span>
+        </div>
+        <div class="comida" id="hamburguesa">
+            <img src="/images/hamburguesa.jpg" alt="Hamburguesa Completa" class="imagen">
+            <h2>Hamburguesa Golden</h2>
+            <p>Una jugosa hamburguesa con todos los ingredientes</p>
+            <button onclick="seleccionarComida(2)">Seleccionar</button>
+            <button onclick="borrarComida(2)">Borrar</button>
+            <span id="cantidad-2">Cantidad: 0</span>
+        </div>
+        <div class="comida" id="muzzarella">
+            <img src="./images/muzzarella.jpg" alt="Bastones de Muzzarella" class="imagen">
+            <h2>Bastones de Muzzarella</h2>
+            <p>Crunchy y deliciosos bastones de queso muzzarella</p>
+            <button onclick="seleccionarComida(3)">Seleccionar</button>
+            <button onclick="borrarComida(3)">Borrar</button>
+            <span id="cantidad-3">Cantidad: 0</span>
+        </div>
+        <div class="comida" id="refrescos">
+            <img src="./images/refrescos.jpg" alt="Refrescos" class="imagen">
+            <h2>Refrescos</h2>
+            <p>Varios sabores de refrescos disponibles</p>
+            <button onclick="seleccionarComida(4)">Seleccionar</button>
+            <button onclick="borrarComida(4)">Borrar</button>
+            <span id="cantidad-4">Cantidad: 0</span>
+        </div>
+    </div>
+    <div id="total">Total: $0.00</div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
+
